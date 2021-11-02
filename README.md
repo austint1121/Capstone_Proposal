@@ -67,7 +67,8 @@ possibility that their child has ADHD (Especially if the child has
 [ADHD-I](https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder_predominantly_inattentive) or
  [ADHD-C](https://www.hopkinsmedicine.org/health/conditions-and-diseases/adhdadd)).
  So my goal here is spread awareness, and plant the idea that the child may have ADHD, so that even if they don't go to
- a doctor immediately, that idea has been planted.
+ a doctor immediately, that idea has been planted. Sometimes the knowledge that a child has a developmental disorder
+can provide emotional relief to the family and child.
 
 
 
