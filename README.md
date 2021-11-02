@@ -102,7 +102,40 @@ also is able to model on data with minimal cleaning. I ran the model on the enti
 Using Catboost's [get_feature_importance](https://catboost.ai/en/concepts/fstr) method I investigated the top 10 features
 of the resulting model.
 
+1. **SC_CSHCN** = Special Health Care Needs Status of Selected Child
 
+
+2.  **FORMTYPE** = Administrative variable, and index column
+
+
+3.  **MENBEVCOV** - Health Insurance - Thinking specifically about this child's mental or behavioral health needs, how often does this child's health insurance offer benefits or cover services that meet these needs?
+
+
+4. **TELLSTORY** - Is this child able to do the following:
+  Tell a story with a beginning, middle, and end?
+  
+
+5.  **MEMORYCOND** - Does this child have serious difficulty concentrating, remembering, or making decisions because of a physical, mental, or emotional condition
+
+
+6.  **K2Q34A** = Has a doctor, other health care provider, or educator EVER told you that this child
+  has Behavioral or Conduct Problems?
+ 
+
+7.  **SC_SEX** = Sex of child in question
+
+
+8. **SESPLANYR** is a Subquestion of
+    - K6Q15: Has this child EVER had a special education or early intervention plan?"
+        - 'SESPLANYR' : "How old was the child at the time of the FIRST plan?"
+
+
+9. **TOTCSHCN** = Count of Children with Special Health Care Needs in Household
+
+
+10.  **K7Q84_R** = How often does this child work to finish tasks they start?
+
+The full variable list can be found [here](https://www2.census.gov/programs-surveys/nsch/technical-documentation/codebook/2020-NSCH-Topical-Variable-List.pdf)
 
 
 ## Information
