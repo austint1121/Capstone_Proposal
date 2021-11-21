@@ -38,9 +38,20 @@ Survey topics include:
 - Impact of child’s health on family
 - Neighborhood characteristics
 
-
+It will be important to explore the relationships between some of these categories as well. For example, there are other
+questions about ADHD that will need to be removed, since a child who has not been diagnosed with ADHD won't answer
+those questions. Another example is the gender category, boys are more likely to be diagnosed with ADHD than girls
+by 12.9% compared to 5.6%. It is unlikely that this is because boys actually are more likely to have ADHD, but rather
+girls just dont get **diagnosed** as often as boys do due to cultural stereotypes. Visualising these things with graphs,
+and using metaphors and stories is going to be extremely important in this project. There is a lot of data here, and it
+will be easy to forget that these are all real people.
 
 Data sourced from the [National Survey of Children's Health](https://www.census.gov/programs-surveys/nsch/data/datasets.html) obtained by the United States Census Bureau
+
+As far as I'm aware, no other projects have been done on this data, however, there have been a few attempts at [using
+machine learning to diagnose ADHD](https://www.sciencedaily.com/releases/2021/01/210127171838.htm). There has also been
+extensive, ongoing research into ADHD, that I will be heavily relying upon to guide my understanding of the model's results.
+I also have personal experience with ADHD, and have researched the subject myself quite heavily.
 
 ### Goal
 In the NSCH data is a question that asks:
@@ -56,11 +67,17 @@ the model predict the probability that a child has ADHD on kids from the survey 
 The idea here being, that if the model finds many similarities between a child who **has not** been diagnosed, and the
 children who **have been** diagnosed, then that child may have undiagnosed ADHD.
 
+The target audience here would be the creators/sponsors of the survey, and this would be a binary classification problem.
+
+
 The kids who the model flagged as having a high chance of undiagnosed ADHD would then have an email sent to their
 primary caregiver that explains that their child shows many similarities with those who have been diagnosed with ADHD.
 Resources for ADHD and recommendations on next steps could be included in the email as well. (This is how I imagine
 the model would be implemented, but it is not within the scope of the project since it would require the coroporation of
-the survey administrators)
+the survey administrators). The base goal of this project is to create a functioning model with high accuracy and recall.
+
+Stretch goals for this project would be deplying the model onto my website, or with some kind of dashboard. Allowing
+others to answer questions from the survey to see the model work for themselves.
 
 One distinction I'd like to make: **This project is not about diagnosing kids with ADHD**.
 
@@ -82,9 +99,9 @@ I performed some preliminary [data exploration](https://github.com/austint1121/C
 and [created a simple model](https://github.com/austint1121/Capstone_Proposal/blob/main/Notebooks/Modeling.ipynb)
 to check the plausibility of the project.
 
-I used [catboost](https://catboost.ai/en/docs/) to create a baseline model, since it is capable of handing categorical data, and
-also is able to model on data with minimal cleaning. I ran the model on the entire dataset, which had 42,777 rows and 443 columns.
-
+I used [catboost](https://catboost.ai/en/docs/) to create a baseline model, since it is capable of handing categorical
+data, and also is able to model on data with minimal cleaning. I ran the model on the entire dataset, which had 42,777
+rows and 443 columns. The data set is hosted on a database used by the US Census Bureau
 
 ![matrix](./images/simple_conf_matrix.png)
 
