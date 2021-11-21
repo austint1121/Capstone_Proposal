@@ -42,6 +42,11 @@ Survey topics include:
 
 Data sourced from the [National Survey of Children's Health](https://www.census.gov/programs-surveys/nsch/data/datasets.html) obtained by the United States Census Bureau
 
+As far as I'm aware, no other projects have been done on this data, however, there have been a few attempts at [using
+machine learning to diagnose ADHD](https://www.sciencedaily.com/releases/2021/01/210127171838.htm). There has also been
+extensive, ongoing research into ADHD, that I will be heavily relying upon to guide my understanding of the model's results.
+I also have personal experience with ADHD, and have researched the subject myself quite heavily.
+
 ### Goal
 In the NSCH data is a question that asks:
 - Has a doctor or other health care provider EVER told you that this child has…
