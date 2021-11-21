@@ -60,7 +60,10 @@ The kids who the model flagged as having a high chance of undiagnosed ADHD would
 primary caregiver that explains that their child shows many similarities with those who have been diagnosed with ADHD.
 Resources for ADHD and recommendations on next steps could be included in the email as well. (This is how I imagine
 the model would be implemented, but it is not within the scope of the project since it would require the coroporation of
-the survey administrators)
+the survey administrators). The base goal of this project is to create a functioning model with high accuracy and recall.
+
+Stretch goals for this project would be deplying the model onto my website, or with some kind of dashboard. Allowing
+others to answer questions from the survey to see the model work for themselves.
 
 One distinction I'd like to make: **This project is not about diagnosing kids with ADHD**.
 
