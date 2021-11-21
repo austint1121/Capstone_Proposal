@@ -67,7 +67,8 @@ the model predict the probability that a child has ADHD on kids from the survey 
 The idea here being, that if the model finds many similarities between a child who **has not** been diagnosed, and the
 children who **have been** diagnosed, then that child may have undiagnosed ADHD.
 
-The target audience here would be the creators/sponsors of the survey.
+The target audience here would be the creators/sponsors of the survey, and this would be a binary classification problem.
+
 
 The kids who the model flagged as having a high chance of undiagnosed ADHD would then have an email sent to their
 primary caregiver that explains that their child shows many similarities with those who have been diagnosed with ADHD.
