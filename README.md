@@ -99,9 +99,9 @@ I performed some preliminary [data exploration](https://github.com/austint1121/C
 and [created a simple model](https://github.com/austint1121/Capstone_Proposal/blob/main/Notebooks/Modeling.ipynb)
 to check the plausibility of the project.
 
-I used [catboost](https://catboost.ai/en/docs/) to create a baseline model, since it is capable of handing categorical data, and
-also is able to model on data with minimal cleaning. I ran the model on the entire dataset, which had 42,777 rows and 443 columns.
-
+I used [catboost](https://catboost.ai/en/docs/) to create a baseline model, since it is capable of handing categorical
+data, and also is able to model on data with minimal cleaning. I ran the model on the entire dataset, which had 42,777
+rows and 443 columns. The data set is hosted on a database used by the US Census Bureau
 
 ![matrix](./images/simple_conf_matrix.png)
 
