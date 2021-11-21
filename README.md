@@ -38,7 +38,13 @@ Survey topics include:
 - Impact of child’s health on family
 - Neighborhood characteristics
 
-
+It will be important to explore the relationships between some of these categories as well. For example, there are other
+questions about ADHD that will need to be removed, since a child who has not been diagnosed with ADHD won't answer
+those questions. Another example is the gender category, boys are more likely to be diagnosed with ADHD than girls
+by 12.9% compared to 5.6%. It is unlikely that this is because boys actually are more likely to have ADHD, but rather
+girls just dont get **diagnosed** as often as boys do due to cultural stereotypes. Visualising these things with graphs,
+and using metaphors and stories is going to be extremely important in this project. There is a lot of data here, and it
+will be easy to forget that these are all real people.
 
 Data sourced from the [National Survey of Children's Health](https://www.census.gov/programs-surveys/nsch/data/datasets.html) obtained by the United States Census Bureau
 
